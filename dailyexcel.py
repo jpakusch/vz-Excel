@@ -9,7 +9,7 @@ from openpyxl import load_workbook
 connection = MySQLdb.connect(
      host="localhost",
      db="volkszaehler",
-     user="vz-admin", passwd="secure"
+     user="vz-admin", passwd="****"
     )
 #sql_select_Query = "select * from data"
 cursor = connection.cursor()
